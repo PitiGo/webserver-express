@@ -7,7 +7,7 @@ require('./hbs/helpers');
 
 const port = process.env.PORT || 3000;
 
-console.log(object);
+
 
 app.use(express.static(__dirname + '/public'));
 
